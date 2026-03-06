@@ -1,194 +1,84 @@
-
 # Payam Adloo
 
-Engineer focused on **hardware validation, embedded systems, and automated test infrastructure**.
+Engineer transitioning into software through **backend systems, test automation, and embedded validation**.
 
-Background in spacecraft battery production engineering and embedded system testing.  
-Currently building tools that demonstrate how **Python automation interacts with embedded hardware systems**.
+My background is in hardware validation, production engineering, and automated test environments. I build Python-based tools that connect software with real devices, structured test workflows, and backend services.
 
----
+## What I Build
 
-# Engineering Focus
+- Backend API services in Python
+- Automated test and validation tooling
+- Embedded hardware interface workflows
+- Device communication and evidence-driven test systems
 
+## Engineering Focus
+
+- Backend software engineering
+- Python automation
 - Embedded systems validation
-- Firmware testing infrastructure
+- Firmware test infrastructure
 - Hardware communication protocols (UART / CAN)
-- Python test automation
-- Manufacturing test systems
-- Backend API services
+- Software-hardware integration
 
----
+## Public Projects
 
-# System Architecture Focus
+### [STM32 Hardware Validation Framework](https://github.com/piemasterflex111/stm32-hardware-validation-framework)
+Python-based embedded validation framework demonstrating automated testing of an STM32 microcontroller through structured UART-based workflows.
 
-```mermaid
-flowchart LR
+**Focus areas:**
+- automated device testing
+- firmware command validation
+- sensor/interface checks
+- structured test artifacts
+- reproducible validation flow
 
-A[Test Automation Framework] --> B[Hardware Interface Layer]
+### [Backend Auth System](https://github.com/piemasterflex111/backend-auth-system)
+Backend service project built to demonstrate Python API development, authentication patterns, and software engineering fundamentals.
 
-B --> C[UART Communication]
-B --> D[CAN Communication]
+**Focus areas:**
+- backend API design
+- authentication workflows
+- service structure
+- Python application architecture
 
-C --> E[Embedded Device]
-D --> E
+## Current Direction
 
-E --> F[STM32 Firmware]
-F --> G[Sensors / Peripherals]
+I am focused on building software that sits at the intersection of:
 
-G --> H[Validation Results]
-H --> A
-```
+- backend systems
+- automation
+- validation infrastructure
+- embedded hardware interfaces
 
-This workflow represents the architecture used across my validation frameworks.
-
-Python test systems interact with embedded hardware through structured interface layers, allowing automated validation of firmware behavior and device responses.
-
----
-
-# Key Projects
-
-## STM32 Hardware Validation Framework
-
-Python-based embedded validation environment demonstrating automated testing of an STM32 microcontroller using UART and CAN communication.
-
-```mermaid
-flowchart TD
-
-A[Test Runner] --> B[UART Interface]
-A --> C[CAN Interface]
-
-B --> D[STM32 Command Protocol]
-C --> D
-
-D --> E[Sensor Data / Device Responses]
-
-E --> F[Validation Logic]
-F --> G[Test Results]
-```
-
-Repository:
-
-https://github.com/piemasterflex111/stm32-hardware-validation-framework
-
----
-
-## Spacecraft Test Automation Framework
-
-Prototype infrastructure for automated validation workflows used in aerospace hardware test environments.
-
-```mermaid
-flowchart TD
-
-A[Test Execution Engine] --> B[Hardware Communication Layer]
-
-B --> C[Power Systems]
-B --> D[Telemetry Systems]
-B --> E[Sensor Systems]
-
-C --> F[Validation Engine]
-D --> F
-E --> F
-
-F --> G[Test Artifacts]
-```
-
-Repository:
-
-https://github.com/piemasterflex111/spacecraft-test-automation-framework
-
----
-
-## Manufacturing Data Automation
-
-Tools for analyzing and automating manufacturing test data pipelines.
-
-```mermaid
-flowchart LR
-
-A[Test Stations] --> B[Data Collection Scripts]
-B --> C[Processing Pipeline]
-C --> D[Structured Reports]
-D --> E[Engineering Insights]
-```
-
-Repository:
-
-https://github.com/piemasterflex111/manufacturing-data-automation
-
----
-
-## Backend Auth System
-
-Python backend service demonstrating authentication workflows and API infrastructure.
-
-```mermaid
-flowchart LR
-
-A[Client Application] --> B[API Layer]
-B --> C[Authentication Service]
-C --> D[Database]
-D --> B
-```
-
-Repository:
-
-https://github.com/piemasterflex111/backend-auth-system
-
----
-
-# Validation Workflow Philosophy
-
-```mermaid
-flowchart TD
-
-A[Test Definition] --> B[Test Execution]
-B --> C[Hardware Interaction]
-C --> D[Data Capture]
-
-D --> E[Validation Logic]
-E --> F[Test Artifacts]
-
-F --> G[Engineering Feedback]
-G --> A
-```
-
-The goal of automated validation systems is to create a **closed feedback loop between firmware behavior and engineering insight**.
-
----
-
-# Current Focus
-
-Developing validation frameworks that bridge:
-
-- embedded firmware
-- automated test infrastructure
-- hardware communication interfaces
-- structured validation artifacts
-
----
-
-# Technologies
+## Technologies
 
 **Languages**
+- Python
+- C/C++ fundamentals
 
-Python  
-C/C++ (embedded firmware)
+**Backend / Software**
+- FastAPI
+- pytest
+- REST APIs
+- Git / GitHub
 
-**Protocols**
+**Embedded / Interfaces**
+- UART
+- CAN
+- PySerial
+- python-can
 
-UART  
-CAN
+## Target Roles
 
-**Tools**
+I am most interested in roles such as:
 
-PySerial  
-python-can  
-pytest  
-FastAPI
+- Software Engineer
+- Backend Engineer
+- Test Automation Engineer
+- Firmware Validation Engineer
+- Software Validation Engineer
+- Integration / Test Software Engineer
 
----
+## GitHub
 
-# Contact
-
-GitHub  
-https://github.com/piemasterflex111
+[github.com/piemasterflex111](https://github.com/piemasterflex111)
