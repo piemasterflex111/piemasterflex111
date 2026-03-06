@@ -2,23 +2,24 @@
 
 Engineer transitioning into software through **backend systems, test automation, and embedded validation**.
 
-My background is in hardware validation, production engineering, and automated test environments. I build Python-based tools that connect software with real devices, structured test workflows, and backend services.
+My background is in hardware validation, automated test environments, and software-hardware integration.
 
 ## What I Build
 
-- Backend API services in Python
+- Python backend services
 - Automated test and validation tooling
-- Embedded hardware interface workflows
-- Device communication and evidence-driven test systems
+- Embedded device interface workflows'
+- Evidence-driven test systems
 
 ## Engineering Focus
 
 - Backend software engineering
 - Python automation
+- Software-hardware integration
 - Embedded systems validation
 - Firmware test infrastructure
 - Hardware communication protocols (UART / CAN)
-- Software-hardware integration
+
 
 ## Public Projects
 
@@ -79,6 +80,4 @@ I am most interested in roles such as:
 - Software Validation Engineer
 - Integration / Test Software Engineer
 
-## GitHub
 
-[github.com/piemasterflex111](https://github.com/piemasterflex111)
