@@ -1,83 +1,72 @@
 # Payam Adloo
 
-Engineer transitioning into software through **backend systems, test automation, and embedded validation**.
+Python software engineer focused on backend services, automation, and validation-oriented tooling.
 
-My background is in hardware validation, automated test environments, and software-hardware integration.
+My background is in aerospace and defense manufacturing engineering, where I worked on traceability, troubleshooting, validation, documentation, and repeatable technical workflows. I now apply that same reliability mindset to software projects involving backend services, internal tools, file automation, structured logging, and testable workflows.
 
 ## What I Build
 
 - Python backend services
-- Automated test and validation tooling
-- Embedded device interface workflows'
-- Evidence-driven test systems
+- Automation and internal tooling
+- Audit-safe filesystem workflows
+- Test and validation tooling
+- Evidence-driven engineering workflows
 
-## Engineering Focus
+## Featured Projects
 
-- Backend software engineering
-- Python automation
-- Software-hardware integration
-- Embedded systems validation
-- Firmware test infrastructure
-- Hardware communication protocols (UART / CAN)
+### [Backend Authentication System](https://github.com/piemasterflex111/backend-auth-system)
 
+FastAPI backend project focused on API routing, request validation, SQLAlchemy data modeling, authentication foundations, password hashing, and test-driven iteration.
 
-## Public Projects
+**Focus areas:**
+- Python backend development
+- FastAPI service structure
+- REST API design
+- SQLAlchemy data modeling
+- authentication foundations
+
+### [Safe File Organizer](https://github.com/piemasterflex111/safe-file-organizer)
+
+Python CLI for audit-safe filesystem automation. It scans local file trees, writes CSV audit reports, classifies cleanup candidates, quarantines generated/dependency folders, handles filename collisions, writes undo scripts, and verifies final state with tests.
+
+**Focus areas:**
+- Python CLI tooling
+- filesystem automation
+- CSV audit reports
+- quarantine workflows
+- collision-safe moves
+- reproducible documentation
 
 ### [STM32 Hardware Validation Framework](https://github.com/piemasterflex111/stm32-hardware-validation-framework)
-Python-based embedded validation framework demonstrating automated testing of an STM32 microcontroller through structured UART-based workflows.
+
+Validation-focused embedded tooling project with UART logging, I2C scanning, sensor-ID proof, structured evidence capture, and repeatable hardware bring-up workflow.
 
 **Focus areas:**
-- automated device testing
-- firmware command validation
-- sensor/interface checks
+- hardware validation
+- UART-based workflows
+- embedded device interfaces
 - structured test artifacts
-- reproducible validation flow
+- repeatable bring-up
 
-### [Backend Auth System](https://github.com/piemasterflex111/backend-auth-system)
-Backend service project built to demonstrate Python API development, authentication patterns, and software engineering fundamentals.
+## Technical Focus
 
-**Focus areas:**
-- backend API design
-- authentication workflows
-- service structure
-- Python application architecture
-
-## Current Direction
-
-I am focused on building software that sits at the intersection of:
-
-- backend systems
-- automation
-- validation infrastructure
-- embedded hardware interfaces
-
-## Technologies
-
-**Languages**
 - Python
-- C/C++ fundamentals
-
-**Backend / Software**
 - FastAPI
-- pytest
 - REST APIs
+- SQLAlchemy
 - Git / GitHub
-
-**Embedded / Interfaces**
-- UART
-- CAN
-- PySerial
-- python-can
+- automation tooling
+- structured logging
+- validation workflows
+- hardware/software integration
 
 ## Target Roles
 
-I am most interested in roles such as:
+I am focused on software engineering roles involving:
 
-- Software Engineer
-- Backend Engineer
-- Test Automation Engineer
-- Firmware Validation Engineer
-- Software Validation Engineer
-- Integration / Test Software Engineer
-
-
+- Python backend development
+- internal tools
+- automation
+- test infrastructure
+- engineering productivity systems
+- hardware/software integration
