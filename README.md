@@ -1,148 +1,81 @@
 # Payam Adloo
 
-Python Automation Engineer focused on infrastructure workflow automation, Jira REST APIs, engineering workflow tooling, validation evidence, and operational reporting.
+**Python Automation & Engineering Systems**
 
-My background is in aerospace and defense manufacturing engineering, where I worked on traceability, troubleshooting, validation, documentation, and repeatable technical workflows. I now use Python to turn messy operational processes into testable, inspectable, and safer automation.
+[GitHub](https://github.com/piemasterflex111)
 
-## What I Build
+## Overview
 
-* Python automation for engineering and operations workflows
-* Jira and GitHub REST API integrations
-* Infrastructure-style ticket classification and routing
-* Dry-run/live execution workflows
-* CSV, JSON, Markdown, and HTML reporting pipelines
-* Audit-safe filesystem automation
-* Hardware-adjacent validation and evidence capture tooling
-* Internal tools with clear safety boundaries and human-review checkpoints
+Engineer bridging manufacturing validation, embedded test systems, and Python automation. I build internal tools that make operational data auditable, workflows repeatable, and engineering evidence structured.
 
-## Strongest Projects
-
-### TraceOps Evidence Demo
-
-Public-safe FastAPI/SQLAlchemy internal workflow demo for mapping role requirements to evidence records, review actions, claim boundaries, and generated artifacts.
-
-What it demonstrates:
-
-* FastAPI service structure
-* SQLAlchemy-backed workflow records
-* evidence-to-requirement mapping
-* provenance and review-action patterns
-* supported / partial / unsupported claim classification
-* human-review boundaries for AI-assisted outputs
-* fake demo data and public-data safety checks
-
-Why it matters:
-
-TraceOps is my strongest internal-tools project. It models a practical problem I care about: turning scattered evidence, notes, generated outputs, and project records into structured workflow records that can be reviewed before they become claims.
-
-Repo: https://github.com/piemasterflex111/traceops-evidence-demo
+**Core capabilities:** Python automation · FastAPI · REST APIs · hardware validation data pipelines · CLI tooling · test automation
 
 ---
 
-### Engineering Workflow Dashboard and Jira Automation Lab
+## Projects
 
-Python automation project for Jira/GitHub workflow reporting and Jira-based infrastructure ticket routing.
+### [Hermes REST API](https://github.com/piemasterflex111/hermes-rest-api)
+**FastAPI service wrapping autonomous AI agents**
 
-What it demonstrates:
+Build an auditable REST layer around an LLM agent for session management, model routing, and structured tool-use. Demonstrates production FastAPI patterns: request validation, async I/O, middleware, and JSON API design.
 
-* Jira Cloud REST API integration
-* GitHub REST API reporting workflows
-* `.env` secrets and `config.toml` runtime configuration
-* nested API payload normalization
-* CSV exports and processed workflow metrics
-* Markdown/HTML report generation
-* deterministic ticket classification
-* dry-run/live execution safety
-* Jira-safe labels and audit comments
-* pytest coverage for client, classifier, and orchestrator logic
+**Stack:** Python, FastAPI, Pydantic, async/await
 
-Why it matters:
+### [TraceOps Evidence Demo](https://github.com/piemasterflex111/traceops-evidence-demo)
+**14 commits · FastAPI + React evidence governance platform**
 
-This project shows how Python can connect to real workflow tools, normalize operational data, classify tickets, and safely plan or apply Jira updates.
+Map unstructured evidence (project logs, conversation records, artifacts) to structured role-fit assessments. Features SQLAlchemy models, FastAPI endpoints, and a React/TanStack UI for risk tracking and gap planning. Models the real problem of turning scattered outputs into auditable, reviewable claims.
 
-Repo: https://github.com/piemasterflex111/engineering-workflow-dashboard
+**Stack:** Python, FastAPI, SQLAlchemy, SQLite, React, TanStack
+
+### [Engineering Workflow Dashboard](https://github.com/piemasterflex111/engineering-workflow-dashboard)
+**21 commits · Jira/GitHub workflow automation**
+
+Python tooling for Jira ticket classification, GitHub workflow reporting, and CSV/HTML dashboard generation. Connects to Jira Cloud REST API and GitHub API to normalize operational data, classify tickets, and safely plan or apply updates. Includes pytest coverage and dry-run/live execution safety.
+
+**Stack:** Python, Jira REST API, GitHub API, pytest, TOML/CSSV config
+
+### [STM32 Hardware Validation Framework](https://github.com/piemasterflex111/stm32-hardware-validation-framework)
+**21 commits · UART-based embedded test & validation**
+
+Automated device testing framework for an STM32F446RE Nucleo board. Implements firmware command protocols, UART serial validation, I2C bus checks, BME280 sensor verification, and structured test artifact generation. Direct parallel to spacecraft battery module production: multi-channel telemetry, synchronous validation, and evidence logging.
+
+**Stack:** Python, pyserial, UART, I2C, CSV/JSON logging
+
+### [local-ai-inference-proof](https://github.com/piemasterflex111/local-ai-inference-proof)
+**8 commits · GPU inference validation & failure taxonomy**
+
+Documented proof of getting Qwen3.6-27B running via vLLM on an RTX PRO 4000 Blackwell: startup diagnostics, failure taxonomy, governor revisions, and verified baselines. Shows practical GPU infrastructure debugging in a production-adjacent environment.
+
+**Stack:** Python, CUDA, vLLM, Docker, Linux
+
+### [mobile-hermes-gateway-client](https://github.com/piemasterflex111/mobile-hermes-gateway-client)
+**13 commits · React Native mobile gateway**
+
+Frontend companion to the Hermes REST API. Demonstrates mobile-first API integration with the backend agent service.
+
+**Stack:** TypeScript, React Native, Expo
+
+### [piemasterflex111](https://github.com/piemasterflex111/piemasterflex111)
+**Profile README · Project index**
+
+This repository — a structured index of my engineering portfolio.
 
 ---
 
-### Safe File Organizer
+## Strengths
 
-Safety-first Python CLI for auditing, planning, and organizing large local file trees such as OneDrive or synced cloud-drive folders.
-
-What it demonstrates:
-
-* recursive file and directory scanning
-* CSV audit reports
-* cleanup candidate classification
-* quarantine workflows instead of blind deletion
-* collision-safe file moves
-* undo/recovery scripts
-* large-folder validation
-
-Why it matters:
-
-This project shows practical automation around messy real-world filesystems where the first requirement is not speed, but avoiding data loss.
-
-Repo: https://github.com/piemasterflex111/safe-file-organizer
+| Area | What it means |
+|---|---|
+| **Python automation** | Jira/GitHub API integrations, data normalization, reporting pipelines |
+| **FastAPI** | Service architecture, validation, async patterns |
+| **Hardware-adjacent** | UART/serial test systems, UART evidence capture, multi-channel data pipelines |
+| **Test & validation** | pytest, dry-run/live workflows, structured evidence capture |
+| **Linux/CLI** | Bash scripting, Docker, systemd services, headless Linux workstations |
+| **Internal tooling** | Audit-safe workflows, human-review boundaries, CSV/JSON/Markdown reporting |
 
 ---
 
-### STM32 Hardware Validation Framework
+## Focus Areas
 
-Embedded bring-up and validation evidence project demonstrating UART logging, I2C validation, and BME280 sensor identification on an STM32F446RE Nucleo board.
-
-What it demonstrates:
-
-* UART evidence logging
-* I2C bus validation
-* BME280 chip-ID proof
-* structured bring-up workflow
-* repeatable hardware validation documentation
-* hardware/software debugging discipline
-
-Why it matters:
-
-This connects my engineering validation background with software-driven evidence capture and repeatable test workflows.
-
-Repo: https://github.com/piemasterflex111/stm32-hardware-validation-framework
-
-## Technical Focus
-
-* Python
-* REST APIs
-* Jira Cloud API
-* GitHub API
-* pytest
-* FastAPI
-* SQLAlchemy / SQLite patterns
-* Bash / Linux
-* PowerShell basics
-* Docker
-* CSV / JSON / Markdown / HTML reporting
-* workflow automation
-* structured debugging
-* validation evidence capture
-
-## Problems I Can Help Automate
-
-* Jira and GitHub workflow reporting
-* infrastructure-style ticket routing
-* Linux / Windows / Network Operations handoffs
-* messy CSV and API-data normalization
-* safe file cleanup and audit workflows
-* validation evidence capture
-* engineering workflow dashboards
-* repetitive manual spreadsheet/reporting processes
-* internal tools with dry-run and human-review boundaries
-
-## Target Roles
-
-I am focused on roles involving:
-
-* Python Automation Engineer
-* Infrastructure Automation Engineer
-* IT Automation Engineer
-* Workflow Automation Engineer
-* Jira Automation Engineer
-* Systems Automation Engineer
-* Test Automation Engineer
-* Engineering Tools / Internal Tools Engineer
+I build toward Python backend and automation roles. My projects demonstrate service architecture, API integration, data pipeline engineering, and hardware-adjacent validation — capabilities transferable to backend, platform, and tooling engineering positions.
