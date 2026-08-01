@@ -1,41 +1,52 @@
 # Payam Adloo
 
-**Engineering Systems · Python · Telemetry · Test Automation**
+**Python backend systems · AI infrastructure · test automation**
 
-Electrical engineer with eight years of experience across aerospace and defense test, hardware validation, systems integration, qualification, and failure investigation. Current technical work focuses on operating and validating Python systems that connect software behavior to measurable evidence.
+Electrical engineer with eight years of aerospace and defense experience across hardware validation, systems integration, qualification, and failure investigation. I now build Python systems that connect APIs, telemetry, local AI, hardware, and operator workflows to measurable evidence.
 
-## Public systems
+**Role direction:** Python Backend Engineer · AI Application Engineer · Automation / Developer Productivity Engineer
+
+## What I build
+
+| Area | Engineering focus |
+|---|---|
+| **Backend systems** | FastAPI services, typed contracts, SQL persistence, asynchronous work, health checks, and failure handling |
+| **AI infrastructure** | Local vLLM inference, request admission, context budgeting, performance measurement, and rollback controls |
+| **Telemetry and hardware** | Binary protocols, CRC validation, serial communication, device detection, and evidence capture |
+| **Verification** | pytest, static checks, containerized integration tests, CI, explicit pass/fail criteria, and reproducible artifacts |
+
+## Flagship public systems
 
 ### [Secure Payload Command and Telemetry Gateway](https://github.com/piemasterflex111/cislunar-ground-platform)
 
-Five-service Python system that receives a fixed binary telemetry frame, preserves the original bytes, validates the interface contract, coordinates durable work through PostgreSQL and Redis, and returns operator-readable results.
+[![ground-platform-ci](https://github.com/piemasterflex111/cislunar-ground-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/piemasterflex111/cislunar-ground-platform/actions/workflows/ci.yml)
 
-**Verified behavior:** nominal processing · raw-byte preservation · idempotent duplicate handling · CRC rejection
+Five-service Python system that receives a fixed binary telemetry frame, preserves the original bytes, validates the interface contract, coordinates durable processing through PostgreSQL and Redis, and returns operator-readable results.
+
+**Verified behavior:** 146 automated tests · isolated end-to-end verification · raw-byte preservation · idempotent duplicate handling · sequence checks · CRC rejection
+
+**Demonstrates:** service boundaries, durable state, API design, binary protocol handling, failure-path testing, and Docker Compose integration.
 
 ### [Hardware Validation Bench](https://github.com/piemasterflex111/stm32-hardware-validation-framework)
 
-Fail-closed serial hardware workflow with explicit Linux device detection, command/response evidence capture, and a strict separation between software checks and physical validation.
+[![software-verification](https://github.com/piemasterflex111/stm32-hardware-validation-framework/actions/workflows/ci.yml/badge.svg)](https://github.com/piemasterflex111/stm32-hardware-validation-framework/actions/workflows/ci.yml)
 
-**Current boundary:** no supported serial device was connected during the latest audit, so the repository does not claim a completed physical STM32 validation run.
+Fail-closed Python workflow for serial and CAN hardware validation. It detects Linux devices, records exact command/response evidence, and prevents software-only checks from being presented as physical hardware validation.
 
-## Operational systems
+**Demonstrates:** PySerial, hardware presence gates, structured evidence artifacts, explicit failure behavior, and the boundary between simulation and observed bench results.
 
-The following systems are maintained in private repositories because they contain workstation-specific operating configuration rather than public portfolio material:
+## Operational AI systems
 
-- **AIWork control plane** — isolates agent changes, runs independent verification, requires human ownership attestation, reapplies checks, and rolls back failed patches.
-- **Local AI runtime** — source of truth for the running vLLM container, parser configuration, health checks, measured routing experiments, and rollback profiles.
-- **Qwen request governor** — admission control, context budgeting, OpenAI-compatible request sanitation, upstream failure handling, and audit logging for local inference.
+These repositories remain private because they contain workstation-specific operating configuration rather than public portfolio material:
 
-## Technical domains
+- **AIWork control plane** — executes bounded agent changes in isolated Git worktrees, verifies them independently, requires human ownership attestation, and rolls back failed applications.
+- **Local AI runtime** — versions the vLLM container configuration, health checks, measured routing experiments, and rollback profiles for a local NVIDIA GPU inference stack.
+- **Qwen request governor** — provides OpenAI-compatible request sanitation, context budgeting, admission control, upstream failure handling, and request audit records.
 
-| Area | Scope |
-|---|---|
-| **Systems integration** | Power, harnesses, instrumentation, serial communication, software, and operator workflow |
-| **Test automation** | Deterministic execution, explicit pass/fail criteria, failure-path testing, and structured artifacts |
-| **Python software** | FastAPI, Pydantic, SQLAlchemy, automated tests, asynchronous services, CLI tooling, and data processing |
-| **Telemetry** | Binary packet contracts, CRC validation, sequence behavior, raw-frame preservation, and retrieval |
-| **Linux and containers** | Docker Compose, systemd services, health checks, logs, process isolation, and rollback |
+## Core stack
 
-## Engineering principle
+`Python` · `FastAPI` · `Pydantic` · `SQLAlchemy` · `PostgreSQL` · `Redis` · `pytest` · `Docker Compose` · `Linux` · `systemd` · `vLLM` · `GitHub Actions` · `serial/CAN telemetry`
 
-A system is not considered validated because code exists or software tests pass. Claims are limited to behavior that was directly observed and preserved as repeatable evidence.
+## Engineering standard
+
+Code existence is not proof of system behavior. Claims are limited to behavior that was directly exercised, checked against explicit acceptance criteria, and preserved as repeatable evidence.
