@@ -1,20 +1,20 @@
 # Payam Adloo
 
-**Software Engineer · Python Backend · AI Applications · Internal Tools**
+**Software Engineer · Python · Test Infrastructure · Backend · AI Applications**
 
-Software engineer with an electrical engineering and aerospace/defense background. I spent eight years across hardware validation, systems integration, qualification, manufacturing systems, and failure investigation, where I consistently gravitated toward automation, telemetry, debugging, software tooling, and hardware/software integration. I now build Python backend systems, APIs, AI applications, and engineering automation with an emphasis on reliability and measurable verification.
+Software engineer with an electrical engineering and aerospace/defense background. I spent eight years across hardware validation, systems integration, qualification, manufacturing systems, and failure investigation, where I increasingly focused on Python automation, telemetry, debugging, test infrastructure, software tooling, and hardware/software integration. I now build Python backend systems, developer/internal tools, automated test infrastructure, and AI applications with an emphasis on reliability and measurable verification.
 
-**Target roles:** Software Engineer · Python Backend Engineer · AI Application Engineer · Automation / Developer Productivity Engineer
+**Target roles:** Software Engineer · Test Infrastructure / Automation · Python Backend Engineer · Developer / Internal Tools · AI Application Engineer
 
 ## What I build
 
 | Area | Engineering focus |
 |---|---|
+| **Test infrastructure & automation** | Python test frameworks, hardware/software integration, CI/CD, failure isolation, repeatable validation, and developer tooling |
 | **Backend systems** | FastAPI services, typed contracts, SQL persistence, asynchronous work, health checks, and failure handling |
-| **AI applications & infrastructure** | Local vLLM inference, request admission, context budgeting, tool/agent workflows, performance measurement, and rollback controls |
 | **Internal tools & automation** | Engineering workflow automation, API integrations, operator tooling, debugging, and repeatable verification |
+| **AI applications & infrastructure** | Local vLLM inference, request admission, context budgeting, tool/agent workflows, performance measurement, and rollback controls |
 | **Telemetry and hardware integration** | Binary protocols, CRC validation, serial communication, device detection, and evidence capture |
-| **Verification** | pytest, static checks, containerized integration tests, CI, explicit pass/fail criteria, and reproducible artifacts |
 
 ## Flagship public systems
 
